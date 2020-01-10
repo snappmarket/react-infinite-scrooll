@@ -1,6 +1,6 @@
 {
   "name": "npm-hgs-package-boilerplate",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "simple babel config for make javascript modules on npm",
   "author": "Mostafa Rastegar",
   "license": "MIT",
