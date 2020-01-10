@@ -1,0 +1,40 @@
+{
+  "name": "npm-hgs-package-boilerplate",
+  "version": "0.2.7",
+  "description": "simple babel config for make javascript modules on npm",
+  "author": "Mostafa Rastegar",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": {
+    "pre-publish": "./cli.js"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file dist/index.js",
+    "publisher": "git push origin master --force && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snappmarket/npm-hgs-package-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "vuejs",
+    "ES6",
+    "javascript",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/snappmarket/npm-hgs-package-boilerplate/issues"
+  },
+  "homepage": "https://github.com/snappmarket/npm-hgs-package-boilerplate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
