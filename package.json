@@ -1,8 +1,10 @@
 {
-  "name": "npm-hgs-package-boilerplate",
-  "version": "0.2.8",
-  "description": "simple babel config for make javascript modules on npm",
-  "author": "Mostafa Rastegar",
+  "name": "react-infinite-scrooll",
+  "version": "0.1.0",
+  "description": "simple and light react component for infinite scrolling",
+  "author": [
+    "Amin Ashtiani,Mostafa Rastegar"
+  ],
   "license": "MIT",
   "main": "dist/index.js",
   "bin": {
@@ -15,24 +17,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snappmarket/npm-hgs-package-boilerplate.git"
+    "url": "https://github.com/AminAshtiani/react-infinite-scrooll.git"
   },
   "keywords": [
     "react",
-    "vuejs",
     "ES6",
     "javascript",
     "npm"
   ],
   "bugs": {
-    "url": "https://github.com/snappmarket/npm-hgs-package-boilerplate/issues"
+    "url": "https://github.com/AminAshtiani/react-infinite-scrooll.git/issues"
   },
-  "homepage": "https://github.com/snappmarket/npm-hgs-package-boilerplate#readme",
+  "homepage": "https://github.com/AminAshtiani/react-infinite-scrooll.git#readme",
   "devDependencies": {
-    "@babel/cli": "^7.7.7",
-    "@babel/core": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
-    "@babel/preset-react": "^7.7.4"
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "react": "^16.12.0"
   },
   "dependencies": {
     "shelljs": "^0.8.3"
